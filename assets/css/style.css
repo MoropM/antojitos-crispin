@@ -55,6 +55,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+.content__buttons__whatsapp,
 .content__buttons__download_pdf {
     /* width: 30%; */
     min-height: 3rem;
@@ -63,15 +64,43 @@ body {
     color: white;
     background-color: #ba7600;
 }
+.content__buttons__whatsapp:hover,
 .content__buttons__download_pdf:hover {
     box-shadow: 0px 0px 7px 2px #e7b646;
 }
 
+.content__buttons__whatsapp:hover { color: white; }
+
+/* Contenido general del menu */
 .content__menu_content {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
-
+.content__menu_content__options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.content__options__card {
+    width: 20rem;
+    max-height: 20rem;
+    margin-bottom: 2rem;
+    /* background-color: rgb(255 255 255 / 30%); */
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+    box-shadow: 0px 0px 1px 2px gray;
+    border-radius: 10px;
+}
+.options__card__image { width: 100%; }
+.options__card__name {
+    position: absolute;
+    bottom: 1rem;
+    background-color: aqua;
+}
 
 
 
